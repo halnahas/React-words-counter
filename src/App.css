@@ -1,3 +1,6 @@
+body {
+  background-image: url('./background.jpg');
+}
 .art-card {
   align-items: center;
   text-align: center;
@@ -6,7 +9,7 @@
   margin-top: 40px;
   padding: 1.8rem;
   border-radius: 0.5rem;
-  background-color: #fff;
+  background-color: #d8f7f2;
   box-shadow: 0 16px 22px -5px rgba(0, 0, 0, 0.1), 0 14px 14px -5px rgba(0, 0, 0, 0.04);
 }
 
@@ -32,7 +35,12 @@
 }
 
 .intro {
-  color: darkblue;
+  color: #2781c5;
+
+}
+
+.enter-words-text {
+  color: #3894da;
   margin-bottom: 25px;
 }
 
@@ -54,7 +62,7 @@
 
 .result {
   margin-top: 20px;
-  color: darkblue;
+  color: #2781c5;
 }
 
 .check-boxes {
@@ -63,7 +71,7 @@
 }
 
 .check-box {
-  accent-color: blue;
+  accent-color: #2781c5;;
 }
 
 .label {

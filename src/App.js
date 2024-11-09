@@ -53,8 +53,6 @@ export default function App() {
               setTotal(newTotal)
               const divId = document.getElementById('result')
               divId.innerHTML = "Word Count is " + newTotal
-              console.log(total)
-              console.log(newTotal)
           })
       })
       .catch(error => {
@@ -71,6 +69,8 @@ export default function App() {
     <div className='art-card'>
       <div className='intro'>
         <h1>Words Counter</h1>
+      </div>
+      <div className='enter-words-text'>
         <p>Enter a text to get number of words</p>
       </div>
       <textarea onChange={updateText} className="area-text"/>
