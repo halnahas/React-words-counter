@@ -1,0 +1,71 @@
+.art-card {
+  align-items: center;
+  text-align: center;
+  max-width: 28rem;
+  margin: auto;
+  margin-top: 40px;
+  padding: 1.8rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  box-shadow: 0 16px 22px -5px rgba(0, 0, 0, 0.1), 0 14px 14px -5px rgba(0, 0, 0, 0.04);
+}
+
+@media screen and (max-width: 500px) {
+  .art-card {
+    margin: 30px;
+    text-align: center;
+  }
+}
+
+.area-text {
+  width: 90%;
+  height: 200px;
+  border-radius: 15px;
+  padding: 8px;
+  margin: auto;
+  border: 1px solid;
+  border-color: darkblue;
+}
+
+.area-text:focus {
+  outline: none;
+}
+
+.intro {
+  color: darkblue;
+  margin-bottom: 25px;
+}
+
+.count-btn {
+  margin-top: 20px;
+  background-color: lightblue;
+  color: black;
+  border-radius: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.count-btn:hover {
+  cursor: pointer;
+  background-color: #8c76ed;
+}
+
+.result {
+  margin-top: 20px;
+  color: darkblue;
+}
+
+.check-boxes {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.check-box {
+  accent-color: blue;
+}
+
+.label {
+  margin-left: 10px;
+}
